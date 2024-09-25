@@ -1,0 +1,37 @@
+.admin-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    
+    
+}
+.admin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.admin-form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.admin-sidebar{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.admin-sidebar span:hover{
+    background-color: crimson;
+    color: white;
+
+}
+.admin-sidebar span{
+    padding: 10px;
+}

@@ -1,0 +1,58 @@
+.address-container{
+    width: 50%;
+
+}
+.address-details{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.address-details input{
+    padding: 5px;
+
+}
+.user{
+    
+    display: flex;
+    gap: 10px;
+}
+.address-information{
+    width: 500px;
+}
+.user input{
+    width: 50%;
+    
+}
+.user-email{
+    display: flex;
+    width: 100%;
+}
+
+.user-email input{
+    width: 100%;
+   
+}
+.user-street{
+    width: 100%;
+    display: flex;
+}
+.user-street input{
+    width: 100%;
+}
+.user-phone{
+    width: 100%;
+    display: flex;
+
+}
+.user-phone input{
+    width: 100%;
+
+}
+@media (max-width:500px) {
+    .address-information{
+        width: 350px;
+    }
+
+    
+}

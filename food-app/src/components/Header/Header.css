@@ -1,0 +1,67 @@
+.navbar{
+    width: 100%;
+    position: sticky;
+    
+    display: flex;
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+.cart-outline{
+    margin-top: 10px;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+.navbar-items{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    text-decoration: none;
+}
+link{
+    text-decoration: none;
+}
+.navbar-item input {
+    margin-top: 10px;
+    width: 250px;
+    height: 10px;
+    padding: 10px;
+
+}
+.profile-image{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+
+}
+.user-name{
+    display: flex;
+    gap: 10px;
+}
+.no-underline {
+    text-decoration: none;
+  }
+  .navbar-items p:hover{
+    color:rgba(33, 37, 41, 0.75);
+    
+
+  }
+  
+@media (max-width:500px) {
+    .navbar-items{
+        display: none;
+    }
+    .header-admin{
+        display: none;
+
+    }
+
+    
+}

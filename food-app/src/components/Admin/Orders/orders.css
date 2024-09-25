@@ -1,0 +1,40 @@
+.orders-admin{
+    font-family: Okra, Helvetica, sans-serif; 
+}
+table{
+    border: 1px solid rgb(232, 232, 232);
+    
+   
+}
+tr{
+    border: 1px solid rgb(209, 21, 21);
+    border-collapse:collapse ;
+
+}
+th{
+    width: 100px;
+    height: 50px;
+}
+td{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.orders-container{
+    
+    border: 1px solid rgb(232, 232, 232);
+}
+.order-username{
+    font-size: 23px;
+    padding-left: 10px;
+}
+.order-username-address{
+    padding:0px 10px 10px;
+
+}
+.order-table{
+    margin: 10px;
+}
+.order-update{
+    padding: 10px;
+}

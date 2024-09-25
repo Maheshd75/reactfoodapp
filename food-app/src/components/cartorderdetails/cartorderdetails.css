@@ -1,0 +1,17 @@
+.cart-order-total{
+    width: 50%;
+     
+}
+
+.cart-order-details{
+    display: flex;
+    justify-content: space-between; 
+}
+.cart-order-details-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px 0px;
+    background-color: crimson;
+    color: white;
+}
